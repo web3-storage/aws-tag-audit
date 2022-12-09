@@ -1,0 +1,29 @@
+{
+  "name": "aws-tag-audit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "analyze": "AWS_PROFILE=protocol-labs node scripts/analyze.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/web3-storage/aws-tag-audit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/web3-storage/aws-tag-audit/issues"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.165.0",
+    "@aws-sdk/client-sqs": "^3.165.0",
+    "@aws-sdk/client-lambda": "^3.226.0",
+    "@babel/core": "^7.19.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  },
+  "homepage": "https://github.com/web3-storage/aws-tag-audit#readme"
+}
